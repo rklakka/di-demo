@@ -2,7 +2,7 @@ package demo.springframework.didemo.controllers;
 
 import org.springframework.stereotype.Controller;
 
-import demo.springframework.didemo.services.GreetingService;
+import demo.springframework.services.GreetingService;
 
 /**
  * Created by jt on 5/23/17.

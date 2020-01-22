@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import demo.springframework.didemo.services.GreetingServiceImpl;
+import demo.springframework.services.GreetingServiceImpl;
 
 class PropertyInjectedControllerTest {
 	

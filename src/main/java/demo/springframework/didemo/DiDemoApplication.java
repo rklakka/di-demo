@@ -3,6 +3,7 @@ package demo.springframework.didemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 import demo.springframework.didemo.controllers.ConstructorInjectedController;
 import demo.springframework.didemo.controllers.MyController;
@@ -10,6 +11,7 @@ import demo.springframework.didemo.controllers.PropertyInjectedController;
 import demo.springframework.didemo.controllers.SetterInjectedController;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"springframework.didemo","springframework.services"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {
