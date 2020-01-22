@@ -11,7 +11,6 @@ import demo.springframework.didemo.controllers.PropertyInjectedController;
 import demo.springframework.didemo.controllers.SetterInjectedController;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"springframework.didemo","springframework.services"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {

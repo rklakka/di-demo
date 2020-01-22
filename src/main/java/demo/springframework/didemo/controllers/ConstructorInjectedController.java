@@ -3,7 +3,7 @@ package demo.springframework.didemo.controllers;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
-import demo.springframework.services.GreetingService;
+import demo.springframework.didemo.services.GreetingService;
 
 /**
  * Created by jt on 5/24/17.
